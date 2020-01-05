@@ -1,6 +1,6 @@
 # introdution
-##font我放在introdution.css第一行
-###程式碼為:
+**font我放在introdution.css第一行
+**程式碼為:
 /*字體*/
 @font-face {
   font-family: 'HanaMin';
