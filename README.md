@@ -5,11 +5,11 @@
 @font-face {<br>
   font-family: 'HanaMin';<br>
   src:url('../font/HanaMin.ttf')format("truetype");<br>
-}
+}<br>
 @font-face {<br>
   font-family: 'Humanst521-BT';<br>
   src:url('../font/Humanst521-BT.ttf')format("truetype");<br>
-}
+}<br>
 @font-face {<br>
   font-family: 'Lucida_Bright';<br>
   src:url('../font/Lucida_Bright.ttf')format("truetype");<br>
