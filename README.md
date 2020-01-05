@@ -3,14 +3,14 @@
 ### 程式碼為:<br>
 /*字體*/
 @font-face {
-  font-family: 'HanaMin';
-  src:url('../font/HanaMin.ttf')format("truetype");
+  font-family: 'HanaMin';<br>
+  src:url('../font/HanaMin.ttf')format("truetype");<br>
 }
-@font-face {
-  font-family: 'Humanst521-BT';
-  src:url('../font/Humanst521-BT.ttf')format("truetype");
+@font-face {<br>
+  font-family: 'Humanst521-BT';<br>
+  src:url('../font/Humanst521-BT.ttf')format("truetype");<br>
 }
-@font-face {
-  font-family: 'Lucida_Bright';
-  src:url('../font/Lucida_Bright.ttf')format("truetype");
+@font-face {<br>
+  font-family: 'Lucida_Bright';<br>
+  src:url('../font/Lucida_Bright.ttf')format("truetype");<br>
 }
