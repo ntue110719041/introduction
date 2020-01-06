@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: 'Humanst521-BT';
-  src:url('../font/Humanst521-BT.ttf')format("truetype");
+  src:url('../font/tt0288m_.ttf')format("truetype");
 }
 @font-face {
   font-family: 'Lucida_Bright';
@@ -395,6 +395,10 @@ a{
   animation: a 3s ease-in;
   animation-iteration-count: 1;
 }
+#sec1_1:hover{
+  animation: a 3s ease-in;
+  animation-iteration-count: 1;
+}
 @keyframes a{
   from{
       opacity: 0;
@@ -404,6 +408,10 @@ a{
   }
 }
 #sec2:hover{
+  animation: b 2s ease-in;
+  animation-iteration-count: 1;
+}
+#sec2_2:hover{
   animation: b 2s ease-in;
   animation-iteration-count: 1;
 }
@@ -419,11 +427,19 @@ a{
   animation: c 1.5s ease-in;
   animation-iteration-count: 1;
 }
+#sec3_3:hover{
+  animation: c 1.5s ease-in;
+  animation-iteration-count: 1;
+}
 @keyframes c{
   from  {transform: scale(1.8);}
   to {transform: scale(1);}
 }
 #sec4:hover{
+  animation: d 2s ease-in;
+  animation-iteration-count: 1;
+}
+#sec4_4:hover{
   animation: d 2s ease-in;
   animation-iteration-count: 1;
 }
@@ -449,7 +465,8 @@ a{
 .sec1subengtitle{
     font-family: 'Humanst521-BT';
     font-size: 1.8vw;
-    letter-spacing: 0.25vw;
+    letter-spacing: 0.35vw;
+    margin-left: 0.1vw;
 }
 .sec1content{
     font-size: 1.8vw;
@@ -483,6 +500,8 @@ a{
 .sec2subengtitle{
   font-family: 'Humanst521-BT';
   font-size: 1.6vw;
+  letter-spacing: 0.04vw;
+  margin-left: 0.2vw;
 }
 .sec2content{
   font-size: 1.8vw;
@@ -529,7 +548,8 @@ a{
 .sec3subengtitle{
   font-family: 'Humanst521-BT';
   font-size: 1.8vw;
-  letter-spacing: -0.03vw;
+  letter-spacing: 0.04vw;
+  margin-left: 0.2vw;
 }
 #sec3img{
   margin-top: 1vw;
@@ -568,7 +588,8 @@ a{
 .sec4subengtitle{
   font-family: 'Humanst521-BT';
   font-size: 1.8vw;
-  letter-spacing: 0.9vw;
+  letter-spacing: 1.1vw;
+  margin-left: 0.1vw;
 }
 #sec4img{
   background-image: url(../img/img_intro-sec04-teach.png);
@@ -620,6 +641,7 @@ footer{
   .sec2img{margin-left: 10vw;}
   #carousel_img{margin-left: -1vw;height: 33vw;}
   .sec3toptitle{margin-left: 12vw;}
+  .sec3subengtitle{margin-left: 0.5vw;}
   #sec3img{
     background-image: url(../img/img_intro-sec03-ramen2.png);}
   .sec4toptitle{margin-left: 12vw;margin-bottom: 1vw;}
@@ -637,13 +659,13 @@ footer{
   .section1{margin-left: 23vw;}
   .sec1title{font-size: 13vw;}
   .sec1subtitle{font-size: 9vw;}
-  .sec1subengtitle{font-size: 3vw;letter-spacing: 0.35vw;}
+  .sec1subengtitle{font-size: 3vw;letter-spacing: 0.58vw;margin-left: 0.2vw;}
   .sec1img{margin-left: 3.5vw;}
   .sec1content{margin-left: 5vw;font-size: 3vw;}
   .section2{margin-left: 10vw;}
   .sec2title{font-size: 13vw;}
   .sec2subtitle{font-size: 9vw;}
-  .sec2subengtitle{font-size: 2.65vw;}
+  .sec2subengtitle{font-size: 2.65vw;letter-spacing: 0.09vw;margin-left: 0.3vw;}
   .sec2content{margin-left: 18vw;font-size: 3vw;}
   .topsection{display: none;}
   .sec2img{margin-left: 18vw;}
@@ -651,13 +673,13 @@ footer{
   .section3{margin-left: 10vw;}
   .sec3title{font-size: 13vw;}
   .sec3subtitle{font-size: 9vw;}
-  .sec3subengtitle{font-size: 3vw;}
+  .sec3subengtitle{font-size: 3vw;letter-spacing:0.09vw;margin-left: 0.3vw;}
   .sec3content{margin-left: 18vw;font-size: 3vw;margin-top: 3vw;margin-bottom: 3vw;}
   #sec3img{margin-left: 8vw;}
   .section4{margin-left: 10vw;}
   .sec4title{font-size: 13vw;}
   .sec4subtitle{font-size: 9vw;}
-  .sec4subengtitle{font-size: 3vw;letter-spacing: 1.6vw;}
+  .sec4subengtitle{font-size: 3vw;letter-spacing: 1.85vw;margin-left: 0.3vw;}
   .sec4content{margin-left: 18vw;font-size: 3vw;margin-bottom: 3vw;}
   #sec4img{margin-left: 8vw;}
   .footertext1{
