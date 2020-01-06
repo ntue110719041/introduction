@@ -328,63 +328,97 @@ a{
       padding: 1vw 2.8vw 1vw 2.8vw;
     }
   }
-  /*影片--------------------------------------------------*/
-  .topvideo{
-    width: 100vw;
-    position: absolute;
-    z-index:-1;
-  }
-  .topvideosection{
-    position: relative;
-    display: flex;
-    width: 100vw;
-  }
-  .bigtitle{
-    color: white;
-    font-size: 5.4vw;
-    position: absolute;
-    z-index:1;
-    margin-top: 10vw;
-    margin-left: 25vw;
-  }
-  .topsection{
-    display: inline-flex;
-    position: absolute;
-    z-index:1;
-    margin-top: 25vw;
-    margin-left: 10vw;
-  }
-  .top01{
-    width: 18vw;
-    height: 25vw;
-    text-align: center;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    background-color: rgba(255,255,255,0.34);
-  }
-  .top01text{padding: 3vw;}
-  .toptitle{
-    font-family: 'Lucida_Bright';
-    font-style: italic;
-    font-size: 7.8vw;
-    color: white;
-  }
-  .topline{
-    color: white;
-    font-size: 1.8vw;
-  }
-  .topsubtitle{
-    font-family: 'HanaMin';
-    color: white;
-    font-size: 1.8vw;
-    margin-top: 1vw;
-  }
-  .topengtitle{
-    font-family: 'Humanst521-BT';
-    color: white;
-    font-size: 1vw;
-    margin-top: 0.5vw;
-  }
+/*回頂部*/
+/* 40px */
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 1;
+	background: #0C9990;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: white;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+/*影片--------------------------------------------------*/
+.topvideo{
+  width: 100vw;
+  position: absolute;
+  z-index:-1;
+}
+.topvideosection{
+  position: relative;
+  display: flex;
+  width: 100vw;
+}
+.bigtitle{
+  color: white;
+  font-size: 5.4vw;
+  position: absolute;
+  z-index:1;
+  margin-top: 10vw;
+  margin-left: 25vw;
+}
+.topsection{
+  display: inline-flex;
+  position: absolute;
+  z-index:1;
+  margin-top: 25vw;
+  margin-left: 10vw;
+}
+.top01{
+  width: 18vw;
+  height: 25vw;
+  text-align: center;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  background-color: rgba(255,255,255,0.34);
+}
+.top01text{padding: 3vw;}
+.toptitle{
+  font-family: 'Lucida_Bright';
+  font-style: italic;
+  font-size: 7.8vw;
+  color: white;
+}
+.topline{
+  color: white;
+  font-size: 1.8vw;
+}
+.topsubtitle{
+  font-family: 'HanaMin';
+  color: white;
+  font-size: 1.8vw;
+  margin-top: 1vw;
+}
+.topengtitle{
+  font-family: 'Humanst521-BT';
+  color: white;
+  font-size: 1vw;
+  margin-top: 0.5vw;
+}
 /*區域1*/
 .section1{
     margin-top: 60vw;
