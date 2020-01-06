@@ -609,6 +609,7 @@ footer{
 .ipad{display: none;}
 .iphone{display: none;}
 @media (max-width: 768px){
+  .computer_top{display: none;}
   .computer{display: none;}
   .ipad{display: unset;}
   .iphone{display: none;}
@@ -628,6 +629,7 @@ footer{
   .footertext2{margin-top: 1vw;font-size: 2.5vw;}
 }
 @media (max-width: 320px){
+  .computer_top{display: unset;}
   .computer{display: none;}
   .ipad{display: none;}
   .iphone{display: unset;}
